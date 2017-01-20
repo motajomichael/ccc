@@ -1,0 +1,6 @@
+// JavaScript Document
+
+$(document).ready(function () {              
+                var hymns = new Array("Jerih mo yah mah", "yah rah sarah", "yah rah man", "oh christ oh my king", "oh kristi oba mi", "let us sinners repent", "kawa elese yiwa pada", "Hear my voice, hear my voice", "My sins measure", "Jesus is calling you", "Lord forgive us all sinners", "Christ is the king of glory", "Jesus here we come, with all our filth", "Our father, come and save us all", "Good behavior for thee all I pray", "Holy Holy is our Lord God", "I have seen I have seen I have known", "Forgiveness of sin we pray", "I have known that I am a sinner", "Forgive me, thy child O’Father", "Forgive us sinners we are", "Gbohun mi, gbohun mi", "Ese mi po", "Jesu l’onpe o tantan", "Dariji waw elese", "Kristi Oba Ologo", "Jesu awa de pel’ aimo wa", "Baba wa ko wa gba wa la", "Iwa rere mo nt’oro fun yin", "Mimo Mimo l’Olorun wa", "Motiri motiri motimo", "Idariji ese lantoro", "Mo ti mo pelese ni mi", "Dariji emi omo re Baba", "Dariji awa elese");
+                $("#input").jqxInput({placeHolder: "Enter hymn", height: 25, width: 200, minLength: 1,  source: hymns });
+            });

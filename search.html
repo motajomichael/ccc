@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Search</title>
+
+<link rel="stylesheet" href="jqwidgets/styles/jqx.base.css" type="text/css" />
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="scripts/demos.js"></script>
+<script type="text/javascript" src="jqwidgets/jqxcore.js"></script>
+<script type="text/javascript" src="jqwidgets/jqxinput.js"></script>
+
+</head>
+
+<body>
+<div data-role="page" id="search" data-add-back-btn="true">
+	<div data-role="header">
+      <h3>Search Hymn</h3>
+      </div>
+	<div data-role="content">	
+		<div data-role="fieldcontain">
+        <script type="text/javascript">
+
+        $(document).ready(function () {              
+                var hymns = new Array("Jerih mo yah mah", "yah rah sarah", "yah rah man", "oh christ oh my king", "oh kristi oba mi", "let us sinners repent", "kawa elese yiwa pada", "Hear my voice, hear my voice", "My sins measure", "Jesus is calling you", "Lord forgive us all sinners", "Christ is the king of glory", "Jesus here we come, with all our filth", "Our father, come and save us all", "Good behavior for thee all I pray", "Holy Holy is our Lord God", "I have seen I have seen I have known", "Forgiveness of sin we pray", "I have known that I am a sinner", "Forgive me, thy child O’Father", "Forgive us sinners we are", "Gbohun mi, gbohun mi", "Ese mi po", "Jesu l’onpe o tantan", "Dariji waw elese", "Kristi Oba Ologo", "Jesu awa de pel’ aimo wa", "Baba wa ko wa gba wa la", "Iwa rere mo nt’oro fun yin", "Mimo Mimo l’Olorun wa", "Motiri motiri motimo", "Idariji ese lantoro", "Mo ti mo pelese ni mi", "Dariji emi omo re Baba", "Dariji awa elese");
+                $("#input").jqxInput({placeHolder: "Enter hymn", height: 25, width: 200, minLength: 1,  source: hymns });
+            });
+      </script>
+       <input type="text" id="input"/>
+
+    </div>
+    <p>
+    
+    
+    </p>			
+	</div>
+	<div data-role="footer">
+		<h4>C.C.C. App &copy 2015</h4>
+	</div>
+</div>
+
+</body>
+</html>

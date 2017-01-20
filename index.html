@@ -1,0 +1,461 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>C.C.C. HYMNAL</title>
+
+<link rel="stylesheet" href="jqwidgets/styles/jqx.base.css" type="text/css" />
+
+<link href="custom.css" rel="stylesheet" type="text/css">
+<link href="jquery.mobile-1.0b3/jquery.mobile-1.0b3.min.css" rel="stylesheet" type="text/css">
+<script src="jquery.mobile-1.0b3/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0b3/jquery.mobile-1.0b3.min.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="scripts/demos.js"></script>
+<script type="text/javascript" src="jqwidgets/jqxcore.js"></script>
+<script type="text/javascript" src="jqwidgets/jqxinput.js"></script>
+
+
+<script type="text/javascript" src="js/search.js"></script>
+
+
+
+</head> 
+<body> 
+
+<!--Home page-->
+<div data-role="page" id="page">
+	<div data-role="header">
+      <img src="images/log.png" width="300" height="96" alt="ccc"> </div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#oos">Order of Service</a></li>
+            <li><a href="#hymnal">Hymnal</a></li>
+			<li><a href="#biblereading">Bible Reading</a></li>
+            <li><a href="search.html" target="_self">Search App</a></li>
+            <li><a href="#tac">The Apostles Creed</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>C.C.C. App &copy 2015</h4>
+	</div>
+</div>
+
+<div data-role="page" id="search" data-add-back-btn="true">
+
+	<div data-role="header">
+      <h3>Search Hymn</h3>
+      </div>
+	<div data-role="content">	
+		<div data-role="fieldcontain">
+      
+       <input type="text" id="input"/>
+
+    </div>
+    <p>
+    
+    
+    </p>			
+	</div>
+	<div data-role="footer">
+		<h4>C.C.C. App &copy 2015</h4>
+	</div>
+</div>
+
+<!--hymnal classification page-->
+<div data-role="page" id="hymnal" data-add-back-btn="true">
+	<div data-role="header">
+		<h3>Clasification of Hymns/Ori Orin</h3>
+  </div>
+	<div data-role="content">
+    
+		  <div data-role="collapsible-set" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
+          <!--English class-->
+    <div data-role="collapsible" data-collapsed="true">
+      <h3>English</h3>
+      <p><ul data-role="listview" data-inset="true">
+      <li><a href="#hymn1" data-transition="flip"">Processional(1)</a></li>
+      <li><a href="#hymn2" data-transition="flip"">Candle lightening(2)</a></li>
+      <li><a href="#kneeling" data-transition="flip"">Kneeling(3-4)</a></li>
+      <li><a href="#forgiveness" data-transition="flip"">Forgiveness and repentance(5-50)</a></li>
+      <li><a href="#services" data-transition="flip"">Services(51-125)</a></li>
+      <li><a href="#palm" data-transition="flip"">Palm sunday(126-150)</a></li>
+      <li><a href="#mercy" data-transition="flip"">mercy(151-175)</a></li>
+      <li><a href="#easter" data-transition="flip"">easter(176-200)</a></li>
+      <li><a href="#ascension" data-transition="flip"">ascension(201-225)</a></li>
+      <li><a href="#holy" data-transition="flip"">holy spirit(226-250)</a></li>
+      <li><a href="#spiritual" data-transition="flip"">spiritual power(251-275)</a></li>
+      <li><a href="#good" data-transition="flip"">Good news(276-300)</a></li>
+      <li><a href="#" data-transition="flip"">Praise(301-325)</a></li>
+      <li><a href="#" data-transition="flip"">Glory(326-350)</a></li>
+      <li><a href="#" data-transition="flip"">Joy(351-375)</a></li>
+      <li><a href="#" data-transition="flip"">Thanksgiving(376-400)</a></li>
+      <li><a href="#" data-transition="flip"">Blessing(401-425)</a></li>
+      <li><a href="#" data-transition="flip"">Harvest(426-450)</a></li>
+      <li><a href="#" data-transition="flip"">Victory(451-485)</a></li>
+      <li><a href="#" data-transition="flip"">Healing(486-500)</a></li>
+      <li><a href="#" data-transition="flip"">Baptism(501-520)</a></li>
+      <li><a href="#" data-transition="flip"">Faith(521-550)</a></li>
+      <li><a href="#" data-transition="flip"">Judgement(551-570)</a></li>
+      <li><a href="#" data-transition="flip"">The coming of christ(571-600)</a></li>
+      <li><a href="#" data-transition="flip"">God’s work(601-630)</a></li>
+      <li><a href="#" data-transition="flip"">Warning(631-645)</a></li>
+      <li><a href="#" data-transition="flip"">Burial and remembrance(646-665)</a></li>
+      <li><a href="#" data-transition="flip"">Call to heaven(666-675)</a></li>
+      <li><a href="#" data-transition="flip"">Divine call(676-690)</a></li>
+      <li><a href="#" data-transition="flip"">Heavenly call(691-700)</a></li>
+      <li><a href="#" data-transition="flip"">Revelation(701-725)</a></li>
+      <li><a href="#" data-transition="flip"">Sanctification(726-730)</a></li>
+      <li><a href="#" data-transition="flip"">House opening(731-735)</a></li>
+      <li><a href="#" data-transition="flip"">Divine love(736-760)</a></li>
+      <li><a href="#" data-transition="flip"">Holy re-union(761-770)</a></li>
+      <li><a href="#" data-transition="flip"">Holy communication(771-780)</a></li>
+      <li><a href="#" data-transition="flip"">Wedding(781-790)</a></li>
+      <li><a href="#" data-transition="flip"">Prayers(791-800)</a></li>
+      <li><a href="#" data-transition="flip"">Protection and journey(801-825)</a></li>
+      <li><a href="#" data-transition="flip"">Children(826-850)</a></li>
+      <li><a href="#" data-transition="flip"">Birth of christ(851-875)</a></li>
+      <li><a href="#" data-transition="flip"">Seeking favour from God(876-900)	</a></li>
+      <li><a href="#" data-transition="flip"">Promise(901-906)</a></li>
+      <li><a href="#" data-transition="flip"">Praise and worship(907-978)</a></li>    
+      </ul>
+      </p>
+    </div>
+    
+    <!--yoruba class-->
+    <div data-role="collapsible" data-collapsed="true">
+      <h3>Yoruba</h3>
+      <p><ul data-role="listview" data-inset="true">
+      <li><a href="#hymn1" data-transition="flip"">Akowole(1)</a></li>
+      <li><a href="#hymn2" data-transition="flip"">Fitila Mimo(2)</a></li>
+      <li><a href="#kneeling" data-transition="flip"">Akunleko(3-4)</a></li>
+      <li><a href="#forgiveness" data-transition="flip"">Idariji ati Ironupiwada(5-50)</a></li>
+      <li><a href="#services" data-transition="flip"">Esin(51-125)</a></li>
+      <li><a href="#palm" data-transition="flip"">Ojo Isimi Ope(126-150)</a></li>
+      <li><a href="#mercy" data-transition="flip"">Esin Anu(151-175)</a></li>
+      <li><a href="#easter" data-transition="flip"">Ajinde(176-200)</a></li>
+      <li><a href="#ascension" data-transition="flip"">Ogo Oluwa(201-225)</a></li>
+      <li><a href="#holy" data-transition="flip"">Emi mimo(226-250)</a></li>
+      <li><a href="#spiritual" data-transition="flip"">Agbara(251-275)</a></li>
+      <li><a href="#good" data-transition="flip"">Ihinrere(276-300)</a></li>
+      <li><a href="#" data-transition="flip"">Iyin(301-325)</a></li>
+      <li><a href="#" data-transition="flip"">Iyin ola(326-350)</a></li>
+      <li><a href="#" data-transition="flip"">Iyin ayo(351-375)</a></li>
+      <li><a href="#" data-transition="flip"">Ope(376-400)</a></li>
+      <li><a href="#" data-transition="flip"">Ibukun(401-425)</a></li>
+      <li><a href="#" data-transition="flip"">Ikore(426-450)</a></li>
+      <li><a href="#" data-transition="flip"">Isegun(451-485)</a></li>
+      <li><a href="#" data-transition="flip"">Iwosan(486-500)</a></li>
+      <li><a href="#" data-transition="flip"">Iribomi(501-520)</a></li>
+      <li><a href="#" data-transition="flip"">Igbagbo(521-550)</a></li>
+      <li><a href="#" data-transition="flip"">Idajo(551-570)</a></li>
+      <li><a href="#" data-transition="flip"">Bibo jesu(571-600)</a></li>
+      <li><a href="#" data-transition="flip"">Ise oluwa(601-630)</a></li>
+      <li><a href="#" data-transition="flip"">Ikilo(631-645)</a></li>
+      <li><a href="#" data-transition="flip"">Isinku ati iranti(646-665)</a></li>
+      <li><a href="#" data-transition="flip"">Ipe si oke orun(666-675)</a></li>
+      <li><a href="#" data-transition="flip"">Ipe(676-690)</a></li>
+      <li><a href="#" data-transition="flip"">Ipe oke orun(691-700)</a></li>
+      <li><a href="#" data-transition="flip"">Ifihan(701-725)</a></li>
+      <li><a href="#" data-transition="flip"">Iyasimimo(726-730)</a></li>
+      <li><a href="#" data-transition="flip"">Sisi ile oluwa(731-735)</a></li>
+      <li><a href="#" data-transition="flip"">Ife aisetan(736-760)</a></li>
+      <li><a href="#" data-transition="flip"">Idapo mimo(761-770)</a></li>
+      <li><a href="#" data-transition="flip"">Idapo ara oluwa(771-780)</a></li>
+      <li><a href="#" data-transition="flip"">Igbeyawo(781-790)</a></li>
+      <li><a href="#" data-transition="flip"">Adura(791-800)</a></li>
+      <li><a href="#" data-transition="flip"">Abo ati irin ajo(801-825)</a></li>
+      <li><a href="#" data-transition="flip"">Orin omode(826-850)</a></li>
+      <li><a href="#" data-transition="flip"">Ibi kristi(851-875)</a></li>
+      <li><a href="#" data-transition="flip"">Iwoju oluwa(876-900)</a></li>
+      <li><a href="#" data-transition="flip"">Ileri(901-906)</a></li>
+      <li><a href="#" data-transition="flip"">Orin at iyin(907-978)</a></li>    
+      </ul>
+      </p>
+    </div>
+    </div>	
+    
+      
+    
+	</div>
+    </div>
+    
+    
+
+<!--classification of hymns--->
+
+<!--forgiveness page hymns-->
+<div data-role="page" id="forgiveness" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#forgiveness").load("classification/forgiveness.html");
+});
+</script>
+</div>
+
+<!--kneeling page hymns-->
+    <div data-role="page" id="kneeling" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#kneeling").load("classification/kneeling.html");
+});
+</script>
+</div>
+
+<!-- Services page hymns-->
+    <div data-role="page" id="services" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#services").load("classification/services.html");
+});
+</script>
+</div>
+
+<!--Palm Sunday page hymns-->
+    <div data-role="page" id="palm" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#palm").load("classification/palm.html");
+});
+</script>
+</div>
+
+<!--Mercy page hymns-->
+    <div data-role="page" id="mercy" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#mercy").load("classification/mercy.html");
+});
+</script>
+</div>
+
+<!--Easter page hymns-->
+    <div data-role="page" id="easter" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#easter").load("classification/easter.html");
+});
+</script>
+</div>
+
+<!--Ascension day page hymns-->
+    <div data-role="page" id="ascension" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#ascension").load("classification/ascension.html");
+});
+</script>
+</div>
+
+<!--Holy Spirit page hymns-->
+    <div data-role="page" id="holy" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#holy").load("classification/holy_spirit.html");
+});
+</script>
+</div>
+
+<!--Spiritual Power page hymns-->
+    <div data-role="page" id="spiritual" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#spiritual").load("classification/spiritual_power.html");
+});
+</script>
+</div>
+
+<!-- page hymns-->
+    <div data-role="page" id="" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#").load("classification/.html");
+});
+</script>
+</div>
+
+<!--Good news page hymns-->
+    <div data-role="page" id="good" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#good").load("classification/good_news.html");
+});
+</script>
+</div>
+
+<!---Hymn holders-->
+
+<div id="hymn1" data-role="page" data-theme="b" data-add-back-btn="true"> 
+   <script type="text/javascript">
+$(function()
+{
+        $("#hymn1").load("hymns/hymn1.html");
+});
+</script>
+</div>
+
+<div id="hymn2" data-role="page" data-theme="b" data-add-back-btn="true"> 
+   <script type="text/javascript">
+$(function()
+{
+        $("#hymn2").load("hymns/hymn2.html");
+});
+</script>
+</div>
+
+<div id="hymn3" data-role="page" data-theme="b" data-add-back-btn="true"> 
+   <script type="text/javascript">
+$(function()
+{
+        $("#hymn3").load("hymns/hymn3.html");
+});
+</script>
+</div>
+
+<div id="hymn4" data-role="page" data-theme="b" data-add-back-btn="true"> 
+   <script type="text/javascript">
+$(function()
+{
+        $("#hymn4").load("hymns/hymn4.html");
+});
+</script>
+</div>
+
+<div id="hymn5" data-role="page" data-theme="b" data-add-back-btn="true"> 
+   <script type="text/javascript">
+$(function()
+{
+        $("#hymn5").load("hymns/hymn5.html");
+});
+</script>
+</div>
+
+<div id="hymn6" data-role="page" data-theme="b" data-add-back-btn="true"> 
+   <script type="text/javascript">
+$(function()
+{
+        $("#hymn6").load("hymns/hymn6.html");
+});
+</script> 
+</div>
+
+<div id="hymn7" data-role="page" data-theme="b" data-add-back-btn="true"> 
+   <script type="text/javascript">
+$(function()
+{
+        $("#hymn7").load("hymns/hymn7.html");
+});
+</script> 
+</div>
+
+<div id="hymn8" data-role="page" data-theme="b" data-add-back-btn="true"> 
+   <script type="text/javascript">
+$(function()
+{
+        $("#hymn8").load("hymns/hymn8.html");
+});
+</script> 
+</div>
+
+<div id="hymn9" data-role="page" data-theme="b" data-add-back-btn="true"> 
+   <script type="text/javascript">
+$(function()
+{
+        $("#hymn9").load("hymns/hymn9.html");
+});
+</script> 
+</div>
+
+<div id="hymn10" data-role="page" data-theme="b" data-add-back-btn="true"> 
+   <script type="text/javascript">
+$(function()
+{
+        $("#hymn10").load("hymns/hymn10.html");
+});
+</script> 
+</div>
+
+<div id="hymn11" data-role="page" data-theme="b" data-add-back-btn="true"> 
+   <script type="text/javascript">
+$(function()
+{
+        $("#hymn11").load("hymns/hymn11.html");
+});
+</script> 
+</div>
+
+<div id="hymn12" data-role="page" data-theme="b" data-add-back-btn="true"> 
+   <script type="text/javascript">
+$(function()
+{
+        $("#hymn12").load("hymns/hymn12.html");
+});
+</script> 
+</div>
+
+<div id="hymn13" data-role="page" data-theme="b" data-add-back-btn="true"> 
+   <script type="text/javascript">
+$(function()
+{
+        $("#hymn13").load("hymns/hymn13.html");
+});
+</script> 
+</div>
+
+<div id="hymn14" data-role="page" data-theme="b" data-add-back-btn="true"> 
+   <script type="text/javascript">
+$(function()
+{
+        $("#hymn14").load("hymns/hymn14.html");
+});
+</script> 
+</div>
+
+<div id="hymn15" data-role="page" data-theme="b" data-add-back-btn="true"> 
+   <script type="text/javascript">
+$(function()
+{
+        $("#hymn15").load("hymns/hymn15.html");
+});
+</script> 
+</div>
+
+<div id="hymn16" data-role="page" data-theme="b" data-add-back-btn="true"> 
+   <script type="text/javascript">
+$(function()
+{
+        $("#hymn16").load("hymns/hymn16.html");
+});
+</script> 
+</div>
+
+<div id="hymn17" data-role="page" data-theme="b" data-add-back-btn="true"> 
+   <script type="text/javascript">
+$(function()
+{
+        $("#hymn17").load("hymns/hymn17.html");
+});
+</script> 
+</div>
+
+<div id="hymn18" data-role="page" data-theme="b" data-add-back-btn="true"> 
+   <script type="text/javascript">
+$(function()
+{
+        $("#hymn18").load("hymns/hymn18.html");
+});
+</script> 
+</div>
+</body>
+</html>

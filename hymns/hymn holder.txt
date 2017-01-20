@@ -1,0 +1,23 @@
+<div id="hymn2" data-role="page" data-theme="b" data-add-back-btn="true">
+  <div data-role="header" data-theme="b">
+    <h1>Hymn 2</h1>
+  </div>
+  <p>Hymn For Lighting The Candles On The Altar:</p>
+  <div data-role="collapsible-set" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
+    <div data-role="collapsible" data-collapsed="false">
+      <h3>English</h3>
+      <p>English Content</p>
+    </div>
+    <div data-role="collapsible" data-collapsed="true">
+      <h3>French</h3>
+      <p>French Content</p>
+    </div>
+    <div data-role="collapsible" data-collapsed="true">
+      <h3>Yoruba</h3>
+      <p>Yoruba Content</p>
+    </div>
+  </div>
+  <div data-role="footer" data-theme="b">
+    <h4>C.C.C. App &copy; 2015</h4>
+  </div>
+</div>
